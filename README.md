@@ -1,2 +1,3 @@
-# am-static-site-builder
-AIR MILES Static Site Builder - Rapid deployment and maintenance of Web based documentation.
+# AIR MILES Static Site Builder (SSB) Help
+
+Offering Rapid deployment and maintenance of Web based documentation.

@@ -1,3 +1,3 @@
 # AIR MILES Static Site Builder (SSB) Help
 
-Offering Rapid deployment and maintenance of Web based documentation.
+Offering rapid deployment and maintenance of web-based documentation.

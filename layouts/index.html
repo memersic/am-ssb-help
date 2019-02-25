@@ -1,0 +1,13 @@
+{{ partial "header.html" . }}
+<span id="sidebar-toggle-span">
+<a href="#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fas fa-bars"></i> navigation</a>
+</span>
+
+<h1>{{ .Title }}</h1>
+<hr>
+<sub><center>{{ .Description }}</center></sub>  
+<br>
+  
+{{ .Content }}
+
+{{ partial "footer.html" . }}

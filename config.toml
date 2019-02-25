@@ -1,0 +1,49 @@
+[frontmatter]
+date = ["date", "publishDate", "lastmod"]
+lastmod = [":git", "lastmod", "date", "publishDate"]
+publishDate = ["publishDate", "date"]
+expiryDate = ["expiryDate"]
+
+baseURL = "dev.developer.airmiles.ca/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+title = "AIR MILES Developer Portal"
+theme = "hugo-theme-learn"
+themesdir = "../.."
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+copyright = "Copyright © 2019, LoyaltyOne; all rights reserved."
+canonifyurls = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+pygmentsStyle = "default"
+enableGitInfo = true
+sectionPagesMenu = "main"
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-arrow-alt-circle-up'></i> What's New!"
+url = "/whats-new"
+weight = 98
+
+[[menu.shortcuts]]
+name = "<i class='fas fa-phone'></i> Contact Us"
+url = "/contact"
+weight = 99
+
+[params]
+  editURL = ""
+  description = "AIR MILES Developer Portal - Documentation and help resources."
+  author = ""
+  showVisitedLinks = false
+  disableBreadcrumb = false
+  disableNextPrev = false
+  disableSearch = false
+  disableAssetBusting = false
+  disableInlineCopyToCLipboard = true
+  disableShortcutsTitle = false
+  disableLanguageSwitchingButton = false
+  ordersectionsby = "weight"
+  themeVariant = "blue"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
